@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<head>
+<style>
+h1 {text-align: center;}
+h2 {text-align: center;}
+</style>
+</head>
+
+<h1>Welcome to Theis Subject Selection Webpage</h1>
+
+
+
+<form action="{% url 'register' %}">
+    <h3>Proceed to Enter your Details:</h3>
+    <input type="submit" value="Proceed">
+</form>
+
+
+{% endblock %}
+
+
